@@ -1,0 +1,17 @@
+#include "buildCompany.h"
+#define VER_MAJOR 17
+#define VER_MAJORSTR	"17"
+#define VER_MINOR 0
+#define VER_MINORSTR	"0"
+#define VERSION_MAJOR 17
+#define VERSION_MAJORSTR	"17"
+#define VERSION_MINOR 0
+#define VERSION_MINORSTR	"0"
+#define VER_BUILDNO	2632
+#define VER_BUILDNOSTR	"2632"
+#define BUILDNO_FILE	2632
+#define BUILDNO_FILESTR "2632"
+#define VERSION_PRODUCTVERSTR	 "17.0"
+#define VERSION_PRODUCTVERSTR_T	 _T("17.0")
+#define CUSTOMVER	0
+#define CUSTOMVERSTR	"0"

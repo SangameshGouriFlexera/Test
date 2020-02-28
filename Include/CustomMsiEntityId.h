@@ -1,0 +1,53 @@
+#ifndef _CUSTOM_MSIENTITYID_H_
+#define _CUSTOM_MSIENTITYID_H_
+
+//	Custom Table information
+static const TCHAR* const MSITABLE_CUSTOMFILE = _T("_CST_FILE_PROPERTY");
+static const TCHAR* const MSITABLE_CUSTOMPROPERTY = _T("ISProperty");
+static const TCHAR* const MSITABLE_CUSTOMMARKEDFILE = _T("_CST_MARKED_FILE");
+
+//	Distribution columns
+static const TCHAR* const MSITABLE_CUSTOMDISTRIBUTION = _T("ISDistribution");
+static const TCHAR* const CUSTOMDISTRIBUTION_COLUMN_DISTRIBUTIONKEY = _T("DistributionKey");
+static const TCHAR* const CUSTOMDISTRIBUTION_COLUMN_LOCATIONATTR = _T("LocationAttr");
+static const TCHAR* const CUSTOMDISTRIBUTION_COLUMN_ATTRIBUTE = _T("Attribute");
+static const TCHAR* const CUSTOMDISTRIBUTION_COLUMN_FTPINFO = _T("FTPInfo");
+static const TCHAR* const CUSTOMDISTRIBUTION_COLUMN_MIFINFO = _T("MIFInfo");
+static const TCHAR* const CUSTOMDISTRIBUTION_COLUMN_NETWORKLOCATION = _T("NetworkLocation");
+static const TCHAR* const CUSTOMDISTRIBUTION_COLUMN_WICOMMANDLINE = _T("WICommandLine");
+
+//	Custom File table
+static const int MSITABLE_CUSTOMFILE_FILEKEY		= 1;
+static const int MSITABLE_CUSTOMFILE_FILENAME		= 2;
+static const int MSITABLE_CUSTOMFILE_COMPONENT		= 3;
+static const int MSITABLE_CUSTOMFILE_DATETIME		= 4;
+static const int MSITABLE_CUSTOMFILE_SIZE			= 5;
+static const int MSITABLE_CUSTOMFILE_ATTRIBUTE		= 6;
+static const int MSITABLE_CUSTOMFILE_LANGUAGE		= 7;
+static const int MSITABLE_CUSTOMFILE_VERSION		= 8;
+static const int MSITABLE_CUSTOMFILE_PEINFO			= 9;
+
+//	Custom property table
+static const int MSITABLE_CUSTOMPROPERTY_PROPERTY	= 1;
+static const int MSITABLE_CUSTOMPROPERTY_COMMENT	= 2;
+
+//	Custom MarkedFile table
+static const int MSITABLE_CUSTOMMARKEDFILE_FILEKEY		= 1;
+static const int MSITABLE_CUSTOMMARKEDFILE_COMPONENT	= 2;
+static const int MSITABLE_CUSTOMMARKEDFILE_FILENAME		= 3;
+static const int MSITABLE_CUSTOMMARKEDFILE_SIZE			= 4;
+static const int MSITABLE_CUSTOMMARKEDFILE_VERSION		= 5;
+static const int MSITABLE_CUSTOMMARKEDFILE_LANGUAGE		= 6;
+static const int MSITABLE_CUSTOMMARKEDFILE_ATTRIBUTE	= 7;
+static const int MSITABLE_CUSTOMMARKEDFILE_SEQUENCE		= 8;
+
+//	Custom Distribution table
+static const int MSITABLE_CUSTOMDISTRIBUTION_KEY			= 1;
+static const int MSITABLE_CUSTOMDISTRIBUTION_LOCATIONATTR	= 2;
+static const int MSITABLE_CUSTOMDISTRIBUTION_ATTRIBUTE		= 3;
+static const int MSITABLE_CUSTOMDISTRIBUTION_FTPINFO		= 4;
+static const int MSITABLE_CUSTOMDISTRIBUTION_MIFINFO		= 5;
+static const int MSITABLE_CUSTOMDISTRIBUTION_NETWORKLOCATION = 6;
+static const int MSITABLE_CUSTOMDISTRIBUTION_WICOMMANDLINE = 7;
+
+#endif // _CUSTOM_MSIENTITYID_H_

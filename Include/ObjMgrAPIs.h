@@ -1,0 +1,27 @@
+#ifndef _OBJMGRAPIS_H
+#define _OBJMGRAPIS_H
+
+//////////////////////////////////////////////////////////////////////////////
+// Public definitions
+//////////////////////////////////////////////////////////////////////////////
+
+enum EnumActiveProjectType
+{
+	eaptMsi = 0,
+	eaptPro = 1
+};
+
+//////////////////////////////////////////////////////////////////////////////
+// Public Prototypes
+//////////////////////////////////////////////////////////////////////////////
+
+#ifdef OBJMGR_DLL
+#define OBJMGRLIB_API __declspec(dllexport)
+#else
+#define OBJMGRLIB_API __declspec(dllimport)
+#endif
+
+extern "C" OBJMGRLIB_API EnumActiveProjectType _stdcall GetActiveProjectType();
+extern "C" OBJMGRLIB_API void _stdcall SetActiveProjectType(EnumActiveProjectType leType);
+
+#endif _OBJMGRAPIS_H
